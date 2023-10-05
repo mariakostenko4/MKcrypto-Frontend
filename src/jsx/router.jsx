@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import Dashboard from './pages/index';
 import Trade from './pages/trade';
 import TradeSell from './pages/trade-sell';
@@ -33,7 +33,7 @@ const Router = () => {
     return (
         <>
 
-            <BrowserRouter basename={window.location.pathname || ''}>
+            <HashRouter basename={'/demo/qash_react'}>
             {/* <BrowserRouter> */}
                 <div id="main-wrapper">
                     <Switch>
@@ -68,7 +68,7 @@ const Router = () => {
                         <Route path='/v2' component={Version2} />
                     </Switch>
                 </div>
-            </BrowserRouter>
+            </HashRouter>
         </>
     );
 };
