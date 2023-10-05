@@ -33,7 +33,7 @@ const Router = () => {
     return (
         <>
 
-            <BrowserRouter basename={'/demo/qash_react'}>
+            <BrowserRouter basename={window.location.pathname || ''}>
             {/* <BrowserRouter> */}
                 <div id="main-wrapper">
                     <Switch>
