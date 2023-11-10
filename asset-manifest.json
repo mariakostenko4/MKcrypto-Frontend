@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/MKcrypto-Frontend/static/css/main.a489ad9b.css",
-    "main.js": "/MKcrypto-Frontend/static/js/main.a7aca32c.js",
-    "static/js/377.9143e7ca.chunk.js": "/MKcrypto-Frontend/static/js/377.9143e7ca.chunk.js",
+    "main.css": "/MKcrypto-Frontend/static/css/main.d10ceac2.css",
+    "main.js": "/MKcrypto-Frontend/static/js/main.3271d9f5.js",
+    "static/js/377.f46d1408.chunk.js": "/MKcrypto-Frontend/static/js/377.f46d1408.chunk.js",
     "static/media/icofont.woff": "/MKcrypto-Frontend/static/media/icofont.dad3accba068281878f1.woff",
     "static/media/icofont.woff2": "/MKcrypto-Frontend/static/media/icofont.9c33516aab48c61e3081.woff2",
     "static/media/6.png": "/MKcrypto-Frontend/static/media/6.089a06175a263ec40190.png",
@@ -38,12 +38,12 @@
     "static/media/lock.jpg": "/MKcrypto-Frontend/static/media/lock.b2eda5774bedc5f78003.jpg",
     "static/media/qr.svg": "/MKcrypto-Frontend/static/media/qr.12135947577bfd0b3abd2fc8668f8006.svg",
     "index.html": "/MKcrypto-Frontend/index.html",
-    "main.a489ad9b.css.map": "/MKcrypto-Frontend/static/css/main.a489ad9b.css.map",
-    "main.a7aca32c.js.map": "/MKcrypto-Frontend/static/js/main.a7aca32c.js.map",
-    "377.9143e7ca.chunk.js.map": "/MKcrypto-Frontend/static/js/377.9143e7ca.chunk.js.map"
+    "main.d10ceac2.css.map": "/MKcrypto-Frontend/static/css/main.d10ceac2.css.map",
+    "main.3271d9f5.js.map": "/MKcrypto-Frontend/static/js/main.3271d9f5.js.map",
+    "377.f46d1408.chunk.js.map": "/MKcrypto-Frontend/static/js/377.f46d1408.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a489ad9b.css",
-    "static/js/main.a7aca32c.js"
+    "static/css/main.d10ceac2.css",
+    "static/js/main.3271d9f5.js"
   ]
 }

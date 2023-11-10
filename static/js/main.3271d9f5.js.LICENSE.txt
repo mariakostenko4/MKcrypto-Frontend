@@ -11,7 +11,7 @@ object-assign
 */
 
 /*!
- * ApexCharts v3.41.1
+ * ApexCharts v3.44.0
  * (c) 2018-2023 ApexCharts
  * Released under the MIT License.
  */
@@ -21,8 +21,6 @@ object-assign
  * Copyright 2021 Hyunje Jun, MDBootstrap and Contributors
  * Licensed under MIT
  */
-
-/*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
 
 /*! svg.draggable.js - v2.2.2 - 2019-01-08
 * https://github.com/svgdotjs/svg.draggable.js
