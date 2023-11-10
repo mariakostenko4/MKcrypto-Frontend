@@ -128,10 +128,10 @@ class Grid {
       }
     }
     gl.dom.elGridRect = graphics.drawRect(
-      -strokeSize / 2 - barWidthLeft - 2,
-      -strokeSize / 2,
+      -strokeSize - barWidthLeft - 2,
+      -strokeSize * 2 - 2,
       gl.gridWidth + strokeSize + barWidthRight + barWidthLeft + 4,
-      gl.gridHeight + strokeSize,
+      gl.gridHeight + strokeSize * 4 + 4,
       0,
       '#fff'
     )
@@ -509,6 +509,7 @@ class Grid {
     ) {
       const xc =
         !w.globals.isBarHorizontal &&
+        w.config.xaxis.tickPlacement === 'on' &&
         (w.config.xaxis.type === 'category' ||
           w.config.xaxis.convertedCatToNumeric)
           ? xCount - 1

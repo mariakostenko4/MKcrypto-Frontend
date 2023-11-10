@@ -164,20 +164,59 @@ const SettingsPaymentMethod = () => {
                     <form action="verify-step-6.html" class="identity-upload">
                         <div class="row g-3">
                             <div class="col-xl-12">
-                                <label class="form-label">Routing number </label>
-                                <input type="text" class="form-control" placeholder="25487" />
+                            <label class="form-label">EUR: </label>
+                                <div className="bank-account ">
+                                    <h6>Číslo účtu: 2002416156 / 2010</h6>
+                                    <CopyButton className="input-group-text" text="2002416156 / 2010" />
+                                </div>
+                                   <div className="bank-account ">
+                                    <h6>IBAN:CZ56 2010 0000 0020 0241 6156</h6>
+                                    <CopyButton className="input-group-text" text="CZ56 2010 0000 0020 0241 6156" />
+                                </div>
+                                <div className="bank-account ">
+                                    <h6>BIC/SWIFT:FIOBCZPPXXX</h6>
+                                    <CopyButton className="input-group-text" text="FIOBCZPPXXX" />
+                                </div>
+                            <label class="form-label">USD: </label>
+                                <div className="bank-account ">
+                                    <h6>Číslo účtu: 2302416158 / 2010</h6>
+                                    <CopyButton className="input-group-text" text="2302416158 / 2010" />
+                                </div>
+                                   <div className="bank-account ">
+                                    <h6>IBAN:CZ37 2010 0000 0023 0241 6158</h6>
+                                    <CopyButton className="input-group-text" text="CZ37 2010 0000 0023 0241 6158" />
+                                </div>
+                                <div className="bank-account ">
+                                    <h6>BIC/SWIFT:FIOBCZPPXXX</h6>
+                                    <CopyButton className="input-group-text" text="FIOBCZPPXXX" />
+                                </div>
+                            <label class="form-label">CZK: </label>
+                                <div className="bank-account ">
+                                    <h6>Číslo účtu:2502061515 / 2010</h6>
+                                    <CopyButton className="input-group-text" text="2502061515 / 2010" />
+                                </div>
+                                   <div className="bank-account ">
+                                    <h6>IBAN:CZ34 2010 0000 0025 0206 1515</h6>
+                                    <CopyButton className="input-group-text" text="IBAN:CZ34 2010 0000 0025 0206 1515" />
+                                </div>
+                                <div className="bank-account ">
+                                    <h6>BIC/SWIFT:FIOBCZPPXXX</h6>
+                                    <CopyButton className="input-group-text" text="FIOBCZPPXXX" />
+                                </div>
                             </div>
-                            <div class="col-xl-12">
-                                <label class="form-label">Account number </label>
-                                <input type="text" class="form-control" placeholder="36475" />
-                            </div>
-                            <div class="col-xl-12">
-                                <label class="form-label">Fulll name </label>
-                                <input type="text" class="form-control" placeholder="Jannatul Maowa" />
-                            </div>
-                            <div class="col-xl-12">
-                                <img src={checkimg} alt="" class="img-fluid" />
-                            </div>
+{/*                                <label class="form-label">Routing number </label> */}
+{/*                             <input type="text" class="form-control" placeholder="25487" /> */}
+{/*                             <div class="col-xl-12"> */}
+{/*                                 <label class="form-label">Account number </label> */}
+{/*                                 <input type="text" class="form-control" placeholder="36475" /> */}
+{/*                             </div> */}
+{/*                             <div class="col-xl-12"> */}
+{/*                                 <label class="form-label">Fulll name </label> */}
+{/*                                 <input type="text" class="form-control" placeholder="Jannatul Maowa" /> */}
+{/*                             </div> */}
+{/*                             <div class="col-xl-12"> */}
+{/*                                 <img src={checkimg} alt="" class="img-fluid" /> */}
+{/*                             </div> */}
                         </div>
                     </form>
                 </Modal.Body>
@@ -193,30 +232,30 @@ const SettingsPaymentMethod = () => {
                     <Modal.Title>Add Card</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <form class="identity-upload">
-                        <div class="row g-3">
-                            <div class="col-xl-12">
-                                <label class="form-label">Name on card </label>
-                                <input type="text" class="form-control" placeholder="Jannatul Maowa" />
-                            </div>
-                            <div class="col-xl-12">
-                                <label class="form-label">Card number </label>
-                                <input type="text" class="form-control" placeholder="5658 4258 6358 4756" />
-                            </div>
-                            <div class="col-xl-4">
-                                <label class="form-label">Expiration </label>
-                                <input type="text" class="form-control" placeholder="10/22" />
-                            </div>
-                            <div class="col-xl-4">
-                                <label class="form-label">CVC </label>
-                                <input type="text" class="form-control" placeholder="125" />
-                            </div>
-                            <div class="col-xl-4">
-                                <label class="form-label">Postal code </label>
-                                <input type="text" class="form-control" placeholder="2368" />
-                            </div>
-                        </div>
-                    </form>
+{/*                     <form class="identity-upload"> */}
+{/*                         <div class="row g-3"> */}
+{/*                             <div class="col-xl-12"> */}
+{/*                                 <label class="form-label">Name on card </label> */}
+{/*                                 <input type="text" class="form-control" placeholder="Jannatul Maowa" /> */}
+{/*                             </div> */}
+{/*                             <div class="col-xl-12"> */}
+{/*                                 <label class="form-label">Card number </label> */}
+{/*                                 <input type="text" class="form-control" placeholder="5658 4258 6358 4756" /> */}
+{/*                             </div> */}
+{/*                             <div class="col-xl-4"> */}
+{/*                                 <label class="form-label">Expiration </label> */}
+{/*                                 <input type="text" class="form-control" placeholder="10/22" /> */}
+{/*                             </div> */}
+{/*                             <div class="col-xl-4"> */}
+{/*                                 <label class="form-label">CVC </label> */}
+{/*                                 <input type="text" class="form-control" placeholder="125" /> */}
+{/*                             </div> */}
+{/*                             <div class="col-xl-4"> */}
+{/*                                 <label class="form-label">Postal code </label> */}
+{/*                                 <input type="text" class="form-control" placeholder="2368" /> */}
+{/*                             </div> */}
+{/*                         </div> */}
+{/*                     </form> */}
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="primary" onClick={handleClose}>
